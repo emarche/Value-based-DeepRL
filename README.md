@@ -37,12 +37,19 @@ Follows our results of the performance (i.e., mean reward over 100 epochs) of th
 ## References
 
 [1] [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/abs/1710.02298)
+
 [2] [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602)
+
 [3] [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
+
 [4] [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
+
 [5] [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/abs/1511.06581)
+
 [6] [Understanding Multi-Step Deep Reinforcement Learning: A Systematic Study of the DQN Target](https://arxiv.org/abs/1901.07510)
+
 [7] [Noisy Networks for Exploration](https://arxiv.org/abs/1706.10295)
+
 [8] [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887)
 
 ## License
