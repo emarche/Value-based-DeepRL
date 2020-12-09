@@ -19,7 +19,7 @@ The proposed approaches are evaluated over different seeds in the LunarLander en
 Follows our results of the performance (i.e., mean reward over 100 epochs) of the algorithms. Notice that we considered "common" hyperparameters for our evaluation, without any fine tuning (we omitted C51 from the results due to its poor performance without specific tuning).
 
 <p align="center">
-  <img width="460" height="350" src="results/valuebased_discrete.png">
+  <img width="460" height="325" src="results/valuebased_discrete.png">
 </p>
 
 ### Requirements
