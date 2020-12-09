@@ -1,0 +1,34 @@
+setup:
+  seed: 1
+  use_gpu: False
+
+train:
+  name: 'CartPole-v1'
+  n_episodes: 50000
+  verbose: 20
+
+agent:
+  update_start: 10  # n° episodes before the network updates start
+  polyak: False
+  tg_update: 5
+
+  gamma: 0.95
+  tau: 0.05
+
+  eps: 1
+  eps_min: 0.05
+  eps_d: 0.99
+
+  buffer:
+    size: 10000 
+    batch: 64
+
+  dnn:
+    h_layers: 2
+    h_size: 64
+    print_model: False
+
+
+  
+      
+

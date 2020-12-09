@@ -1,0 +1,40 @@
+setup:
+  seed: 1
+  use_gpu: False
+
+train:
+  name: 'CartPole-v1'
+  n_episodes: 50000
+  verbose: 20
+
+agent:
+  update_start: 10  # n° episodes before the network updates start
+  
+  gamma: 0.95 
+  
+  # CartPole: 8 atoms are crucial, [-5., 5.] v gave the best results
+  atoms: 8 
+  v_min: -5.  
+  v_max: 5. 
+
+  polyak: False
+  tg_update: 25
+  tau: 0.05
+
+  eps: 1
+  eps_min: 0.05
+  eps_d: 0.99
+
+  buffer:
+    size: 2000 
+    batch: 64 
+
+  dnn:
+    h_layers: 2
+    h_size: 64
+    print_model: False
+
+
+  
+      
+
